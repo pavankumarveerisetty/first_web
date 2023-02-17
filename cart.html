@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+.atomic{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid rosybrown;
+    background-color:coral;
+ }
+ h1,h2{
+    text-align: center;
+ }
+</style>
+<body>
+    <h1>Items added to cart successfully<br>
+        Enter the following details for shipping
+    </h1>
+    <form class="atomic" action="cart.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" >
+        <input type="number" name="pin" placeholder="Enter your pincode">
+        <input type="text" name="dist" placeholder="Enter your district">
+        <input type="text" name="state" placeholder="Enter your state">
+        <button name="submit">submit</button>
+    </form>
+</body>
+</html>
